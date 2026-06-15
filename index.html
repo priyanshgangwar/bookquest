@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BookQuest — Learn a book like a board game</title>
+  <meta name="description" content="Turn books into a board-game journey: read short lessons, pass the tests, advance your token, earn badges." />
+
+  <!-- Display + body faces. Degrade gracefully to system stacks if offline. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;600;700&family=Nunito:ital,wght@0,400;0,600;0,700;0,800;0,900;1,600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="assets/css/styles.css" />
+</head>
+<body>
+  <canvas id="confetti-canvas" aria-hidden="true"></canvas>
+
+  <!-- HUD: shown only while a book is open. Updated by the engine. -->
+  <header id="hud" class="hud" hidden>
+    <button id="hud-back" class="hud__back" type="button" aria-label="Back to library">
+      <span aria-hidden="true">◀</span> Library
+    </button>
+    <div class="hud__title" id="hud-title">Book</div>
+    <div class="hud__stats">
+      <span class="stat stat--xp"   title="Experience">🪙 <b id="hud-xp">0</b></span>
+      <span class="stat stat--strk" title="Answer streak">🔥 <b id="hud-streak">0</b></span>
+      <span class="stat stat--badge" title="Badges earned">🏅 <b id="hud-badges">0</b></span>
+    </div>
+    <div class="hud__progress" aria-label="Journey progress">
+      <div class="track"><div class="track__fill" id="hud-fill" style="width:0%"></div></div>
+      <span class="hud__pct" id="hud-pct">0%</span>
+    </div>
+    <button id="hud-reset" class="hud__reset" type="button" title="Reset this book's progress">Reset</button>
+  </header>
+
+  <main id="app">
+    <section id="screen-library" class="screen" tabindex="-1" aria-label="Library"></section>
+    <section id="screen-map"     class="screen" tabindex="-1" aria-label="Journey map" hidden></section>
+    <section id="screen-lesson"  class="screen" tabindex="-1" aria-label="Lesson" hidden></section>
+    <section id="screen-quiz"    class="screen" tabindex="-1" aria-label="Quiz" hidden></section>
+    <section id="screen-result"  class="screen" tabindex="-1" aria-label="Level result" hidden></section>
+    <section id="screen-final"   class="screen" tabindex="-1" aria-label="Final result" hidden></section>
+  </main>
+
+  <!-- Classic scripts, loaded in dependency order. One global namespace: window.BQ -->
+  <script src="assets/js/confetti.js"></script>
+  <script src="assets/js/state.js"></script>
+  <script src="assets/js/questions.js"></script>
+  <script src="assets/js/engine.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,52 @@
+{
+  "_README": "Copy this file, rename it <your-book-id>.json, fill it in, then add a matching line to books.json (or run tools/build_manifest.py to regenerate the manifest automatically). Delete the _README and _notes keys when you're done — they're ignored by the app but keep the file tidy.",
+
+  "id": "my-book-id",
+  "title": "Book Title",
+  "author": "Author Name",
+  "tagline": "One punchy line shown on the shelf card.",
+  "journeyName": "Name of the journey (eyebrow text on the map)",
+  "cover": { "emoji": "📘", "color": "#2e7d32" },
+  "passThreshold": 0.6,
+  "_notes_passThreshold": "Fraction (0-1) of a level's questions needed to pass and unlock the next station. Default 0.6.",
+
+  "finalGrades": [
+    { "minPct": 0,  "title": "Lowest rank",  "blurb": "Shown when the final-exam score is below the next tier." },
+    { "minPct": 60, "title": "Middle rank",  "blurb": "Shown at 60%+." },
+    { "minPct": 85, "title": "Top rank",     "blurb": "Shown at 85%+." }
+  ],
+  "_notes_finalGrades": "Sorted by minPct ascending. The highest tier whose minPct <= the boss-exam score% is awarded.",
+
+  "levels": [
+    {
+      "id": "level-1",
+      "title": "Level Title (shows on the board tile)",
+      "icon": "📖",
+      "lessons": [
+        {
+          "heading": "Lesson card heading",
+          "body": "Lesson text. Separate paragraphs with a blank line (\\n\\n).",
+          "quote": "Optional pull-quote shown at the bottom of the card. Omit the key if not needed."
+        }
+      ],
+      "questions": [
+        { "type": "mcq",      "q": "A multiple-choice question?", "options": ["A", "B", "C", "D"], "answer": 0, "explain": "Why the answer is right." },
+        { "type": "tf",       "q": "A true/false statement.", "answer": true, "explain": "Why." },
+        { "type": "scenario", "q": "A 'what would X do?' question.", "options": ["Option 1", "Option 2"], "answer": 1, "explain": "Why." },
+        {
+          "type": "sort",
+          "q": "Sort these into the right buckets.",
+          "prompt": "Drag each item into a bucket. On phone, tap an item then tap a bucket.",
+          "buckets": ["Bucket A", "Bucket B"],
+          "items": [
+            { "text": "Item that belongs in A", "bucket": "Bucket A" },
+            { "text": "Item that belongs in B", "bucket": "Bucket B" }
+          ],
+          "explain": "Why the sorting is correct."
+        }
+      ],
+      "badge": { "name": "Badge earned for passing this level", "icon": "🏅" }
+    }
+  ],
+  "_notes_levels": "The LAST level is treated as the boss/final exam — finishing it shows the final grade certificate instead of a normal reward screen. 'answer' is a 0-based index for mcq/scenario, and true/false for tf."
+}

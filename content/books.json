@@ -1,0 +1,16 @@
+{
+  "books": [
+    {
+      "id": "rich-dad-poor-dad",
+      "file": "rich-dad-poor-dad.json",
+      "title": "Rich Dad Poor Dad",
+      "author": "Robert Kiyosaki",
+      "tagline": "Escape the rat race. Make money work for you.",
+      "cover": {
+        "emoji": "💰",
+        "color": "#2e7d32"
+      },
+      "levels": 8
+    }
+  ]
+}

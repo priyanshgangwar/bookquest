@@ -1,0 +1,540 @@
+{
+  "id": "rich-dad-poor-dad",
+  "title": "Rich Dad Poor Dad",
+  "author": "Robert Kiyosaki",
+  "tagline": "Escape the rat race. Make money work for you.",
+  "journeyName": "Path to Financial Freedom",
+  "cover": { "emoji": "💰", "color": "#2e7d32" },
+  "passThreshold": 0.6,
+  "finalGrades": [
+    { "minPct": 0, "title": "Poor Dad", "blurb": "Still trading time for money and hoping the paycheck stretches. Re-read the stations, the mindset shift is the whole game." },
+    { "minPct": 60, "title": "Middle Class", "blurb": "You know the rules now. You buy some assets, but doodads and liabilities still sneak in. Keep widening the gap between earning and owning." },
+    { "minPct": 85, "title": "Rich Dad", "blurb": "You think in assets and cashflow. Money works for you, fear doesn't run you, and you see opportunity where others see risk. Financially free." }
+  ],
+  "levels": [
+    {
+      "id": "rat-race",
+      "title": "Escape the Rat Race",
+      "icon": "🐀",
+      "lessons": [
+        {
+          "heading": "Two Dads, Two Mindsets",
+          "body": "Kiyosaki grew up with two father figures. His 'Poor Dad' — highly educated, secure job — believed the love of money is the root of all evil, and that you study hard to get a safe job.\n\nHis 'Rich Dad' — an entrepreneur who never finished school — believed the LACK of money is the root of all evil, and that you study hard to learn how money works so you can own businesses and assets.\n\nSame son, two scripts. The whole book is about choosing which script runs your life.",
+          "quote": "The poor and the middle class work for money. The rich have money work for them."
+        },
+        {
+          "heading": "What the Rat Race Really Is",
+          "body": "Most people get a job, earn a paycheck, pay bills, and get a raise — which they spend on a bigger house and nicer car, creating bigger bills. Earn more, spend more, owe more. Round and round.\n\nKiyosaki calls this the Rat Race: working harder and harder while staying in the same financial spot. Two emotions keep the wheel spinning — FEAR of not having money, and DESIRE for what money buys.\n\nFinancial education is how you step off the wheel."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "According to Rich Dad, the core difference between the rich and everyone else is:",
+          "options": [
+            "The rich earn higher salaries",
+            "The rich make money work for them, instead of working for money",
+            "The rich are luckier with investments",
+            "The rich inherited their wealth"
+          ],
+          "answer": 1,
+          "explain": "It is not about salary size. The rich build and buy assets that generate income, so their money does the working."
+        },
+        {
+          "type": "tf",
+          "q": "Getting a higher-paying job is the surest way to escape the rat race.",
+          "answer": false,
+          "explain": "A raise usually triggers more spending and bigger liabilities. Without financial education, more income just spins the wheel faster."
+        },
+        {
+          "type": "scenario",
+          "q": "Rich Dad would say the two emotions that trap most people in the rat race are:",
+          "options": [
+            "Fear and desire (greed)",
+            "Pride and envy",
+            "Patience and discipline"
+          ],
+          "answer": 0,
+          "explain": "Fear of being without money pushes you to work; desire for what money buys empties the paycheck. Master both and you control the wheel."
+        },
+        {
+          "type": "mcq",
+          "q": "Poor Dad said 'I can't afford it.' What did Rich Dad insist you ask instead?",
+          "options": [
+            "'Do I really need it?'",
+            "'How can I afford it?'",
+            "'Can I borrow it?'",
+            "'Is it on sale?'"
+          ],
+          "answer": 1,
+          "explain": "'I can't afford it' shuts the brain down. 'How can I afford it?' forces it to find a way — the muscle the rich exercise daily."
+        }
+      ],
+      "badge": { "name": "Rat Race Escapee", "icon": "🏁" }
+    },
+    {
+      "id": "rich-dont-work-for-money",
+      "title": "The Rich Don't Work for Money",
+      "icon": "💵",
+      "lessons": [
+        {
+          "heading": "Let Money Be the Teacher",
+          "body": "As a boy, Kiyosaki worked for Rich Dad for almost nothing. He got angry. Rich Dad let him stay angry on purpose — because that anger is what most people feel their whole lives but never examine.\n\nThe lesson: a job is something most people do out of fear. Working only for a paycheck keeps you emotionally controlled by the employer and by your bills. Rich Dad wanted Robert to see the trap from the inside while he was young.",
+          "quote": "The poor and middle class work for money. Learn to have money work for you, and you are free."
+        },
+        {
+          "heading": "Fear and Greed Run the Show",
+          "body": "Rich Dad taught that most financial decisions are driven by two emotions: fear (of not paying the bills) and greed/desire (wanting more once the money arrives).\n\nWhen a raise comes, fear and desire grab it instantly — new car, bigger house, more stuff. The paycheck rises but so do the obligations. The trick is to feel those emotions, then think instead of react. Your mind is your greatest asset; train it to spot opportunity rather than just chase security."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "Why did Rich Dad pay young Robert so little — and even pay him nothing for a while?",
+          "options": [
+            "To save money on wages",
+            "To make him feel the emotion (fear and anger) that controls most workers, so he would learn to think past it",
+            "Because the work had no value",
+            "To test his loyalty"
+          ],
+          "answer": 1,
+          "explain": "It was a deliberate lesson. Feeling the trap of working for money — then choosing to think instead of react — is the whole point."
+        },
+        {
+          "type": "tf",
+          "q": "Rich Dad believed your salary is your most important financial asset.",
+          "answer": false,
+          "explain": "Your MIND is the greatest asset. Trained well, it builds wealth; untrained, it just chases a bigger paycheck."
+        },
+        {
+          "type": "scenario",
+          "q": "You just got a 20% raise. What would Rich Dad do?",
+          "options": [
+            "Upgrade the car and apartment to match the new income",
+            "Direct the extra income into acquiring income-producing assets before lifestyle creeps up",
+            "Keep it all in checking for emergencies"
+          ],
+          "answer": 1,
+          "explain": "The rich convert raises into assets, not bigger liabilities. Lifestyle inflation is exactly how fear and desire keep you running."
+        },
+        {
+          "type": "mcq",
+          "q": "Rich Dad said most people let two emotions make their money decisions. They are:",
+          "options": [
+            "Hope and patience",
+            "Fear and desire (greed)",
+            "Curiosity and ambition",
+            "Anger and pride"
+          ],
+          "answer": 1,
+          "explain": "Fear drives you to take and keep a job; desire spends the reward. Awareness of both is the start of control."
+        }
+      ],
+      "badge": { "name": "Mind Over Money", "icon": "🧠" }
+    },
+    {
+      "id": "financial-literacy",
+      "title": "Financial Literacy",
+      "icon": "📊",
+      "lessons": [
+        {
+          "heading": "The One Rule: Know the Difference",
+          "body": "Rich Dad's Rule No. 1: you must know the difference between an asset and a liability, and buy assets.\n\nHis definitions are blunt and cashflow-based, not accountant-based:\n• An ASSET puts money INTO your pocket.\n• A LIABILITY takes money OUT of your pocket.\n\nThat's it. The rich buy assets. The poor have only expenses. The middle class buy liabilities they think are assets.",
+          "quote": "Rich people acquire assets. The poor and middle class acquire liabilities that they think are assets."
+        },
+        {
+          "heading": "Three Cashflow Patterns",
+          "body": "Picture income flowing through a person:\n• The POOR: income comes in and goes straight out to expenses. Nothing left.\n• The MIDDLE CLASS: income buys liabilities — a mortgage, car loans, credit-card debt — that look like assets but drain cash every month.\n• The RICH: income buys assets, and those assets throw off enough income to cover expenses. The asset column grows and feeds itself.\n\nWealth is measured by how long your assets could support you if you stopped working — not by how big your paycheck is."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "In Rich Dad's cashflow definition, an asset is something that:",
+          "options": [
+            "Looks expensive and impressive",
+            "Puts money into your pocket",
+            "The bank approves you to borrow for",
+            "Increases your monthly payments"
+          ],
+          "answer": 1,
+          "explain": "Forget the accounting textbook. If it feeds your pocket each month, it's an asset; if it drains it, it's a liability."
+        },
+        {
+          "type": "tf",
+          "q": "Rich Dad argued that the home you live in is usually a liability, not an asset.",
+          "answer": true,
+          "explain": "Your residence takes money out of your pocket every month (mortgage, tax, upkeep). By his cashflow rule that makes it a liability — a famously controversial point."
+        },
+        {
+          "type": "sort",
+          "q": "Sort these into Assets and Liabilities — Rich Dad style (does it put money IN, or take money OUT, of your pocket?).",
+          "prompt": "Drag each item into a bucket. On phone, tap an item then tap a bucket.",
+          "buckets": ["Asset", "Liability"],
+          "items": [
+            { "text": "Rental property with positive cashflow", "bucket": "Asset" },
+            { "text": "Dividend-paying stocks", "bucket": "Asset" },
+            { "text": "Car loan", "bucket": "Liability" },
+            { "text": "Credit-card balance", "bucket": "Liability" },
+            { "text": "Royalties from a book you wrote", "bucket": "Asset" },
+            { "text": "The mortgage on your own home", "bucket": "Liability" }
+          ],
+          "explain": "Assets generate income (rent, dividends, royalties). Liabilities pull cash out each month (loans, balances, your own mortgage)."
+        },
+        {
+          "type": "scenario",
+          "q": "A friend brags that their brand-new financed luxury car is 'a great asset.' What would Rich Dad say?",
+          "options": [
+            "Agree — expensive cars hold value",
+            "Call it a liability: it takes money out of their pocket every month and loses value",
+            "Say it depends on the colour"
+          ],
+          "answer": 1,
+          "explain": "A financed, depreciating car drains cash monthly. By the cashflow rule it's a liability, no matter how nice it looks."
+        },
+        {
+          "type": "mcq",
+          "q": "Rich Dad measured true wealth as:",
+          "options": [
+            "Total salary per year",
+            "How long you could survive on your assets' income if you stopped working",
+            "The size of your house",
+            "Your job title"
+          ],
+          "answer": 1,
+          "explain": "Wealth = days you can sustain your lifestyle from assets alone. A big paycheck with no assets is not wealth."
+        }
+      ],
+      "badge": { "name": "Asset Reader", "icon": "📈" }
+    },
+    {
+      "id": "mind-your-business",
+      "title": "Mind Your Own Business",
+      "icon": "🏢",
+      "lessons": [
+        {
+          "heading": "Your Profession vs. Your Business",
+          "body": "Your profession is what pays your bills today — your job. Your business is what you build for wealth: your asset column.\n\nRay Kroc once asked a room of MBAs what business McDonald's was in. They said hamburgers. He said: 'No — my business is real estate.' The burgers paid the bills; the real estate built the fortune.\n\nKeep your day job, but start minding your OWN business: relentlessly building assets on the side.",
+          "quote": "The rich focus on their asset columns while everyone else focuses on their income statements."
+        },
+        {
+          "heading": "Beware the Doodads",
+          "body": "Rich Dad called the little luxuries that eat your money 'doodads' — gadgets, upgrades, impulse buys. They feel small, but they're where would-be assets go to die.\n\nThe discipline: every spare dollar buys a real asset first — income real estate, stocks, bonds, notes, intellectual property, anything that produces income or appreciates. Let the asset column grow until its income exceeds your expenses. Then, and only then, let the assets buy your luxuries."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "'Mind your own business' in Rich Dad terms means:",
+          "options": [
+            "Quit your job immediately",
+            "Keep your job, but relentlessly build your own asset column on the side",
+            "Mind only your employer's profits",
+            "Avoid investing until you're rich"
+          ],
+          "answer": 1,
+          "explain": "Your profession pays bills; your 'business' — the asset column — builds wealth. Grow it alongside the job."
+        },
+        {
+          "type": "sort",
+          "q": "Rich Dad keeps a tight asset column. Sort these into real Assets vs. money-draining Doodads/Liabilities.",
+          "prompt": "Drag each item into a bucket. On phone, tap an item then tap a bucket.",
+          "buckets": ["Asset", "Doodad / Liability"],
+          "items": [
+            { "text": "Income-producing real estate", "bucket": "Asset" },
+            { "text": "Latest phone bought on impulse", "bucket": "Doodad / Liability" },
+            { "text": "Intellectual property (patents, royalties)", "bucket": "Asset" },
+            { "text": "Designer watch financed on credit", "bucket": "Doodad / Liability" },
+            { "text": "Stocks and bonds", "bucket": "Asset" },
+            { "text": "A second boat you rarely use", "bucket": "Doodad / Liability" }
+          ],
+          "explain": "Assets produce income or appreciate (real estate, IP, stocks/bonds). Doodads are luxuries that just drain the asset column."
+        },
+        {
+          "type": "tf",
+          "q": "Ray Kroc said the real business of McDonald's was selling hamburgers.",
+          "answer": false,
+          "explain": "He said the real business was REAL ESTATE. The burgers paid the bills; the property under each store built the wealth."
+        },
+        {
+          "type": "scenario",
+          "q": "You have a spare $500 each month. What would Rich Dad do first?",
+          "options": [
+            "Buy an income-producing asset and let it grow",
+            "Upgrade to a nicer phone and watch",
+            "Leave it sitting in checking"
+          ],
+          "answer": 0,
+          "explain": "Assets first, luxuries later — bought by the income the assets produce. That's how the column compounds."
+        }
+      ],
+      "badge": { "name": "Asset Builder", "icon": "🧱" }
+    },
+    {
+      "id": "taxes-corporations",
+      "title": "The History of Taxes & Corporations",
+      "icon": "🏛️",
+      "lessons": [
+        {
+          "heading": "Earn, Spend, THEN Pay Tax",
+          "body": "Rich Dad pointed out a structural edge: employees earn, get taxed, and spend what's left. A corporation earns, spends on legitimate expenses, and is taxed on what remains.\n\nKnowing how corporations and tax law work legally lets the financially educated keep more of what they make. It's not about cheating — it's about understanding the rules the system is actually written in.",
+          "quote": "Each dollar in my asset column is a great employee, working hard to make more employees and buy the boss a new car."
+        },
+        {
+          "heading": "The Four Pillars of Financial IQ",
+          "body": "Rich Dad said financial intelligence rests on four kinds of knowledge:\n1. ACCOUNTING — financial literacy; reading the numbers.\n2. INVESTING — the science of money making money.\n3. MARKETS — supply, demand, and what drives value.\n4. THE LAW — tax, corporate, and legal rules that protect and accelerate wealth.\n\nHe also split debt in two: GOOD debt (someone else pays it, like a tenant covering a rental mortgage) and BAD debt (you pay it, out of your own pocket, for liabilities)."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "Which is the correct order for a corporation, per Rich Dad's point about the tax edge?",
+          "options": [
+            "Earn → pay tax → spend",
+            "Earn → spend (on expenses) → pay tax on what's left",
+            "Spend → earn → pay tax",
+            "Pay tax → earn → spend"
+          ],
+          "answer": 1,
+          "explain": "Corporations are taxed on what remains after legitimate expenses; employees are taxed before they get to spend. Knowing the rules matters."
+        },
+        {
+          "type": "mcq",
+          "q": "Which is NOT one of Rich Dad's four pillars of financial intelligence?",
+          "options": [
+            "Accounting",
+            "Investing",
+            "Networking at parties",
+            "Understanding the law"
+          ],
+          "answer": 2,
+          "explain": "The four are Accounting, Investing, Understanding Markets, and the Law. Networking is useful, but it isn't one of the four."
+        },
+        {
+          "type": "scenario",
+          "q": "Rich Dad calls a rental mortgage that your tenant's rent fully pays off:",
+          "options": [
+            "Bad debt — debt is always bad",
+            "Good debt — someone else pays it and the asset is yours",
+            "Not debt at all"
+          ],
+          "answer": 1,
+          "explain": "Good debt is paid by someone else (the tenant) while you keep the appreciating asset. Bad debt comes out of your own pocket for liabilities."
+        },
+        {
+          "type": "tf",
+          "q": "Rich Dad believed understanding tax law is about illegally hiding money.",
+          "answer": false,
+          "explain": "It's about legally understanding the rules — corporations, deductions, structures — so you keep more of what you earn within the law."
+        }
+      ],
+      "badge": { "name": "Rule Reader", "icon": "⚖️" }
+    },
+    {
+      "id": "rich-invent-money",
+      "title": "The Rich Invent Money",
+      "icon": "💡",
+      "lessons": [
+        {
+          "heading": "Courage Beats a Higher IQ",
+          "body": "Rich Dad said the single most powerful asset is the mind — and what holds most minds back is not a lack of intelligence but a lack of courage. Self-doubt and fear of losing keep people on the sidelines.\n\nOpportunities are everywhere; the financially intelligent are trained to SEE them and bold enough to ACT. Often it's not the smartest person who wins, but the one willing to take calculated risk while others freeze.",
+          "quote": "Often in the real world, it's not the smart who get ahead, but the bold."
+        },
+        {
+          "heading": "Money Is Invented",
+          "body": "Great financial opportunities are not found — they're created by trained minds. Where an average investor sees a run-down house, a trained one sees a deal to structure. Where others see a falling market, the financially intelligent see assets on sale.\n\nKiyosaki's two types of investors: those who buy packaged investments, and those who CREATE investments by assembling deals. Building financial intelligence — and the courage to use it — is how you join the second group and effectively 'invent' money."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "Rich Dad said what most often holds people back from wealth is:",
+          "options": [
+            "A low IQ",
+            "Lack of courage — fear and self-doubt — not lack of intelligence",
+            "Not enough formal education",
+            "Bad luck"
+          ],
+          "answer": 1,
+          "explain": "Intelligence is common; courage to act on opportunity is rarer. Fear of losing keeps capable people from ever starting."
+        },
+        {
+          "type": "scenario",
+          "q": "A market crashes and prices fall sharply. What would Rich Dad most likely see?",
+          "options": [
+            "A disaster — sell everything",
+            "Assets on sale — an opportunity for the prepared and financially intelligent",
+            "A reason to never invest again"
+          ],
+          "answer": 1,
+          "explain": "Trained investors see downturns as discounts. 'Inventing money' means acting with intelligence where others react with fear."
+        },
+        {
+          "type": "tf",
+          "q": "Rich Dad believed great opportunities are simply found by luck, not created by skill.",
+          "answer": false,
+          "explain": "The rich INVENT money — they create and structure deals using financial intelligence. It's a trained skill, not luck."
+        },
+        {
+          "type": "mcq",
+          "q": "Kiyosaki describes two types of investors. The wealthier mindset is the one who:",
+          "options": [
+            "Only buys ready-made, packaged investments",
+            "Creates investments by assembling and structuring deals",
+            "Waits for a financial advisor to decide everything",
+            "Avoids all risk"
+          ],
+          "answer": 1,
+          "explain": "Deal-creators assemble opportunities (the components: the deal, the money, the smart people). That's how the rich 'invent' money."
+        }
+      ],
+      "badge": { "name": "Opportunity Spotter", "icon": "🔭" }
+    },
+    {
+      "id": "work-to-learn",
+      "title": "Work to Learn, Not to Earn",
+      "icon": "🛠️",
+      "lessons": [
+        {
+          "heading": "Chase Skills, Not Salaries",
+          "body": "Young Kiyosaki was advised by Rich Dad to take jobs for what he would LEARN, not what he would earn. He even recommended a sales job at Xerox — not for the pay, but to conquer his fear of rejection and master selling.\n\nThe most important skills for building wealth aren't narrow specialties. They're broad: sales, marketing, communication, and understanding how systems and people work together.",
+          "quote": "Job security meant everything to my educated dad. Learning meant everything to my rich dad."
+        },
+        {
+          "heading": "Specialists vs. Generalists",
+          "body": "School trains specialists — go deep in one narrow field and get paid for that expertise. Rich Dad valued the opposite for wealth-building: 'know a little about a lot.'\n\nThe two skills he prized most were SELLING and MARKETING — the ability to communicate value and move people to act. Many brilliant, highly-educated people stay poor because they can't sell. Work to learn the skills that let you build and run businesses, even if it means a lower paycheck for a while."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "Rich Dad advised young Robert to choose jobs based primarily on:",
+          "options": [
+            "The highest salary available",
+            "What skills he would learn from them",
+            "How prestigious the title sounded",
+            "How close they were to home"
+          ],
+          "answer": 1,
+          "explain": "Work to LEARN, not to earn. Early jobs are for acquiring skills that build wealth later, not maximizing the paycheck today."
+        },
+        {
+          "type": "scenario",
+          "q": "You're offered two jobs: one pays more but teaches nothing new; the other pays less but builds your sales and leadership skills. Rich Dad would pick:",
+          "options": [
+            "The higher-paying job — always take the money",
+            "The lower-paying job that builds transferable, wealth-building skills",
+            "Neither — wait for a perfect offer"
+          ],
+          "answer": 1,
+          "explain": "Skills compound for a lifetime; a slightly bigger early paycheck doesn't. Choose the role that teaches you to build."
+        },
+        {
+          "type": "tf",
+          "q": "Rich Dad believed the most valuable wealth-building skills are deep, narrow specializations.",
+          "answer": false,
+          "explain": "He prized GENERALIST skills — selling, marketing, communication, leadership — 'know a little about a lot.' Specialists often stay employees."
+        },
+        {
+          "type": "mcq",
+          "q": "Which pair of skills did Rich Dad consider most essential for building wealth?",
+          "options": [
+            "Accounting and typing",
+            "Selling and marketing",
+            "Coding and design",
+            "Cooking and cleaning"
+          ],
+          "answer": 1,
+          "explain": "The ability to sell and market — to communicate value and move people to act — underpins almost every successful business."
+        }
+      ],
+      "badge": { "name": "Skill Seeker", "icon": "🎯" }
+    },
+    {
+      "id": "boss-financial-freedom",
+      "title": "Financial Freedom Exam",
+      "icon": "🏁",
+      "lessons": [
+        {
+          "heading": "The Boss Level",
+          "body": "This is the final exam — a mix of everything from the Path to Financial Freedom. No new reading.\n\nProve you can think like Rich Dad: assets vs. liabilities, fear and desire, building your own business, the four pillars, inventing money, and working to learn.\n\nScore 85%+ to earn the rank of Rich Dad. Roll the dice.",
+          "quote": "It's not how much money you make. It's how much money you keep, and how many generations you keep it for."
+        }
+      ],
+      "questions": [
+        {
+          "type": "mcq",
+          "q": "The single defining habit of the rich, per the book, is:",
+          "options": [
+            "Earning a very high salary",
+            "Acquiring assets that produce income",
+            "Saving every penny in a bank",
+            "Avoiding all forms of debt"
+          ],
+          "answer": 1,
+          "explain": "Wealth is built by buying assets that put money in your pocket — the asset column is the engine."
+        },
+        {
+          "type": "tf",
+          "q": "By Rich Dad's cashflow definition, the home you live in is typically a liability.",
+          "answer": true,
+          "explain": "It takes money out of your pocket monthly, so by the pocket test it's a liability — the book's most debated claim."
+        },
+        {
+          "type": "sort",
+          "q": "Final sort: Assets vs. Liabilities, Rich Dad style.",
+          "prompt": "Drag each item into a bucket. On phone, tap an item then tap a bucket.",
+          "buckets": ["Asset", "Liability"],
+          "items": [
+            { "text": "Cashflow-positive rental", "bucket": "Asset" },
+            { "text": "Consumer credit-card debt", "bucket": "Liability" },
+            { "text": "Royalty income stream", "bucket": "Asset" },
+            { "text": "Financed luxury car", "bucket": "Liability" }
+          ],
+          "explain": "Money IN = asset (rental, royalties). Money OUT = liability (credit-card debt, financed car)."
+        },
+        {
+          "type": "scenario",
+          "q": "A recession hits and asset prices tumble. The Rich Dad mindset reacts by:",
+          "options": [
+            "Panic-selling everything",
+            "Looking for quality assets now on sale",
+            "Swearing off investing forever"
+          ],
+          "answer": 1,
+          "explain": "Downturns are discounts for the prepared. Inventing money means acting with intelligence while others freeze in fear."
+        },
+        {
+          "type": "mcq",
+          "q": "Rich Dad's four pillars of financial intelligence are accounting, investing, understanding markets, and:",
+          "options": [
+            "Public speaking",
+            "The law (tax and corporate rules)",
+            "Networking",
+            "Engineering"
+          ],
+          "answer": 1,
+          "explain": "Accounting, Investing, Markets, and the Law — together they let you build and protect wealth."
+        },
+        {
+          "type": "tf",
+          "q": "Rich Dad advised taking early jobs to LEARN skills, not just to maximize earnings.",
+          "answer": true,
+          "explain": "Work to learn, not to earn. Skills like selling and marketing compound into wealth-building ability."
+        },
+        {
+          "type": "scenario",
+          "q": "You receive a surprise bonus. The most Rich Dad move is to:",
+          "options": [
+            "Buy an income-producing asset before lifestyle creep takes it",
+            "Upgrade your car and phone",
+            "Spend it on a vacation you'll finance"
+          ],
+          "answer": 0,
+          "explain": "Convert windfalls into assets first. Let the assets — not the paycheck — eventually buy the luxuries."
+        }
+      ],
+      "badge": { "name": "Financially Free", "icon": "🦅" }
+    }
+  ]
+}
