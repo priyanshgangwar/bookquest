@@ -4,7 +4,7 @@ Learn a book like a board game. Read short lessons, pass quick tests, advance yo
 
 A **vanilla static site** — plain HTML/CSS/JS, no build step, no dependencies, no backend. First book: *Rich Dad Poor Dad*. Adding more books is just dropping in a JSON file.
 
-**▶ Live:** _add your GitHub Pages URL here after deploy_ (e.g. `https://<username>.github.io/bookquest/`)
+**▶ Live:** https://priyanshgangwar.github.io/bookquest/
 
 ---
 
